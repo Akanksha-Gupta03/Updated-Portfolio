@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 140%;
+}
+
+.bg-primary {
+    padding-top: 0%;
+    background-image: url("https://cdn.pixabay.com/photo/2013/02/21/19/06/beach-84533_960_720.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.navPosition {
+    padding-bottom: 7%;;
+}
+
+@media screen and (max-width: 710px) {
+    .navPosition {
+        padding-bottom: 13%;
+    }
+}
+
+.navBorder{
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2%;
+    border-radius: 5px;
+    padding-bottom:7%;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+@media screen and (max-width: 476px) {
+    .navPosition {
+        font-size: 75%;
+    }
+}
+
+.container {
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.introDiv {
+    padding-left: 3%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.name {
+    background: linear-gradient(to top, #ffe838, #d42391);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive ;
+    font-weight: bolder;
+    font-size: 300%;
+    margin-top: 8%;
+}
+
+.profession {
+    font-weight: bolder;
+    font-size: 3.5rem;   
+}
+
+
+.skills {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.photoDiv {
+    text-align: center;
+}
+
+.profilePic {
+    width: 60%;
+    border-style: solid;
+    border-color:#fd57bf;
+    border-width: 5px;
+    border-bottom-width: 5px;
+    border-radius: 50%;
+}
+
+.bg-secondary {
+    background-color:#E1695C !important;
+}
+
+.aboutSection {
+    text-align: center;
+    color: black;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+.aboutParagraph {
+    text-align: left;
+    color:black;
+    font-weight:bolder;
+    font-size: 150%;
+}
+
+.portfolio {
+    color:  black !important;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-color: #f5eeba;
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.imgMod {
+    width: 100%;
+    height: 100%;
+    padding: 2%;;
+    border-style: solid;
+    border-color: #fd57bf;
+    border-width: medium;
+    margin: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.projectName {
+    color: black !important;
+    font-weight: bolder;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: #eee;
+}
+
+.bg-info{
+    background-color: #221e3f !important;
+}
+
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: #fd57bf;
+    border-color: #eee;
+    padding-bottom:7px;
+}
+
+button:hover {
+    background-color: #221e3f;
+    color: #ffe838;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #16162d;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eee;
+    top: -3rem;
+    right: 37rem;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+
+.heart i{
+    color: #221e3f;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.copyright p{
+    font-size: 1.4rem;
+    color: #eee;
+}
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(253, 87, 191,0.99);
+    }
+    70%{
+        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    }
+}

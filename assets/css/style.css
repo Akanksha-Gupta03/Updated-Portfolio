@@ -99,7 +99,6 @@ body {
 .profilePic {
     width: 60%;
     border-style: solid;
-    border-color:#fd57bf;
     border-width: 5px;
     border-bottom-width: 5px;
     border-radius: 50%;

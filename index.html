@@ -21,10 +21,10 @@
             <nav class="navbar fixed-top justify-content-end">
               <ul class="nav nav-bar">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#top"><strong class="navBorder">home</strong></a>
+                  <a class="nav-link" href="#top"><strong class="navBorder">home</strong></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#aboutSection"><strong class="navBorder">about</strong></a>
+                  <a class="nav-link" href="#aboutSection"><strong class="navBorder">about</strong></a>
                 </li>
                 <br>
                 <li class="nav-item">
@@ -98,14 +98,14 @@
 
     <div class="row">
         <div class="col-md-4">
-            <div class="imgContainer">
+            <div class="imgContainer" data-aos-duration="2000" data-aos="fade-right" data-aos-easing="ease-in-sine">
               <img class="img-fluid imgMod bandana" src="assets/images/Untitled.png" alt="noodles image">
               <a class="projectName" href="https://stephanieblom.github.io/Project-1/"><p>Cooking For Dummies</p></a>
             </div>
       </div>
 
         <div class="col-md-4">
-          <div class="imgContainer">
+          <div class="imgContainer" data-aos-duration="2000" data-aos="fade-up" data-aos-easing="ease-in-sine">
             <img class="img-fluid imgMod" src="assets/images/exercise.jpg" alt="fitness diaries">
             <a class="projectName" href="https://fitness-diaries.herokuapp.com/"><p>Fitness Diaries</p></a>
             </div>
@@ -113,7 +113,7 @@
 
 
         <div class="col-md-4">
-          <div class="imgContainer">
+          <div class="imgContainer" data-aos-duration="2000" data-aos="fade-left" data-aos-easing="ease-in-sine">
             <img class="img-fluid imgMod" src="https://i0.wp.com/thevpn.guru/wp-content/uploads/2019/05/Strong-Password-Generator.jpg?" alt="crystal collector">
             <a class="projectName" href="https://akanksha-gupta03.github.io/Password-Generator/"><p>Password-Generator</p></a>
             </div>
@@ -123,19 +123,19 @@
     <br>
     <div class="row">
         <div class="col-md-4">
-            <div class="imgContainer">
+            <div class="imgContainer" data-aos-duration="2000" data-aos="fade-right" data-aos-easing="ease-in-sine">
               <img class="img-fluid imgMod" src="https://ichef.bbci.co.uk/childrens-responsive-ichef-ck/400xn/amz/cbbc/bp-codebreaking-quiz.jpg" alt="quiz image">
               <a class="projectName" href="https://akanksha-gupta03.github.io/Code-Quiz/"><p>Code Quiz</p></a>
             </div>
         </div>
         <div class="col-md-4">
-          <div class="imgContainer">
+          <div class="imgContainer" data-aos-duration="2000" data-aos="fade-up" data-aos-easing="ease-in-sine">
             <img class="img-fluid imgMod" src="https://allwordsmatter.com/wp-content/uploads/2018/01/Depositphotos_128703896_m-2015-720x400.jpg" alt="day planner">
             <a class="projectName" href="https://akanksha-gupta03.github.io/Day-Planner/"><p>Day Planner</p></a>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="imgContainer">
+          <div class="imgContainer" data-aos-duration="2000" data-aos="fade-left" data-aos-easing="ease-in-sine">
             <img class="img-fluid imgMod" src="https://i0.wp.com/mountainreporter.com/wp-content/uploads/2019/03/Weather-Report.jpg?" alt="weather forecast image">
             <a class="projectName" href="https://akanksha-gupta03.github.io/Weather-Forecast/"><p>Weather-Forecast</p></a>
           </div>
@@ -149,7 +149,7 @@
 <section class="contact bg-info" id="contactSection">
   <div class="container">
     <h1><strong>contact me</strong></h1>
-      <h2>&hearts;</h2>
+      <h2 id="heart">&hearts;</h2>
     <div class="row">
       <div class="col-lg-12">
         <h2 id="my-email">akanksha.rapti@gmail.com</h2>
@@ -203,6 +203,11 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/javascript/logic.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 

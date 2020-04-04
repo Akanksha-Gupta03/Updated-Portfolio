@@ -92,15 +92,6 @@ body {
     font-size: 100%;
 }
 
-.photoDiv {
-    text-align: center;
-}
-
-.profilePic {
-    width: 60%;
-    border-radius: 10%;
-}
-
 .bg-secondary {
     background-color:#E1695C !important;
 }

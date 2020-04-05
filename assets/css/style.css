@@ -33,7 +33,6 @@ body {
     border-radius: 75px;
     background-image: linear-gradient(45deg, rgb(138, 65, 116), #c7d322);
     border: none;
-    filter: drop-shadow(1px 1px 5px rgb(92, 35, 84));
 }
 
 .navBorder{
